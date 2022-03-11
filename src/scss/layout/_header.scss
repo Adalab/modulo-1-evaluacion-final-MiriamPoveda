@@ -1,0 +1,75 @@
+// Imagen de fondo
+
+.header {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+// Hamburguesa
+
+.start {
+  list-style: none;
+  position: absolute;
+
+  &__hamburguer {
+    width: 24px;
+    height: 24px;
+    margin: 55px 0 0 33px;
+  }
+}
+
+// Menú de inicio
+
+.menu {
+  display: none;
+
+  &__list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+  }
+}
+
+// Disfruta creando espacios
+
+.spaces {
+  padding-top: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__icon {
+    height: 257px;
+    text-align: center;
+    padding-left: 45px;
+  }
+}
+
+.header-wrapper {
+  text-align: center;
+  line-height: 40px;
+}
+
+.title {
+  font-size: 24px;
+  color: $turquoise;
+  font-weight: 600;
+
+  &__button {
+    font-weight: 600;
+    background-color: $turquoise;
+    text-transform: capitalize;
+    padding: 12px 24px;
+    border: none;
+  }
+}
+
+// Link
+
+.links {
+  text-decoration: none;
+  color: $white-text;
+}
