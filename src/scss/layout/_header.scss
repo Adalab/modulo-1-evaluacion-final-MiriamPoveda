@@ -11,7 +11,7 @@
 
 .start {
   list-style: none;
-  position: absolute;
+  position: fixed;
 
   &__hamburguer {
     width: 24px;
@@ -42,24 +42,21 @@
   align-items: center;
 
   &__icon {
-    height: 257px;
+    height: 96px;
     text-align: center;
     padding-left: 45px;
   }
 }
-
-.header-wrapper {
-  text-align: center;
-  line-height: 40px;
-}
-
 .title {
   font-size: 24px;
   color: $turquoise;
   font-weight: 600;
+  padding-top: 160px;
+  padding-bottom: 24px;
 
   &__button {
     font-weight: 600;
+    font-size: 16px;
     background-color: $turquoise;
     text-transform: capitalize;
     padding: 12px 24px;
