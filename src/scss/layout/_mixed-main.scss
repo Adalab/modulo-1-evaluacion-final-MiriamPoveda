@@ -1,0 +1,66 @@
+// Section
+
+.mixed-main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+// pumpkin article
+
+.pumpkin-article {
+  background-color: $pumpkin-background;
+  padding: 46px 0 63px;
+  color: $white-text;
+  line-height: 35px;
+
+  &__pumpkin-title {
+    font-size: 24px;
+  }
+
+  &__pumpkin-title--pumpkin-text {
+    font-size: 14px;
+  }
+
+  &__pumpkin-title--pumpkin-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: $white-text;
+    display: grid;
+    padding-top: 20px;
+  }
+}
+
+// Mixed article
+
+.mixed-article {
+  background-color: $beige-background;
+  color: $turquoise;
+  padding: 87px 0 92px;
+
+  &__mixed-title {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  &__mixed-title--mixed-text {
+    font-size: 14px;
+  }
+}
+
+// Mixed button
+
+.mixed-button {
+  background-color: $turquoise;
+  padding: 12px 24px;
+  border: none;
+  margin-top: 30px;
+
+  &__mixed-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: $white-text;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+}
