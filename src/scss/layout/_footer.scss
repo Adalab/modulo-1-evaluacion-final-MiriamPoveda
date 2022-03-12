@@ -1,0 +1,51 @@
+// Footer + section
+
+.footer {
+  background-color: $turquoise;
+  color: $blue-grey-text;
+
+  &__footer-section {
+    display: flex;
+    flex-direction: column;
+    padding: 56px 0 0 146px;
+  }
+}
+
+// Footer list
+
+.footer-list {
+  list-style: none;
+  padding: 12px 0 20px;
+
+  &__li-size {
+    text-transform: capitalize;
+  }
+}
+
+// Social list
+
+.social-list {
+  list-style: none;
+  display: flex;
+  width: 24px;
+  height: 26px;
+
+  &__social-media {
+    padding-right: 11px;
+    color: $white-text;
+  }
+}
+
+// Arrow
+
+.arrow-link {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 24px;
+  padding-bottom: 16px;
+
+  &__arrow {
+    width: 24px;
+    height: 24px;
+  }
+}
