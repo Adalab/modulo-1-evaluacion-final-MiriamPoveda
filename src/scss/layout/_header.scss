@@ -18,11 +18,11 @@
     height: 24px;
     margin: 55px 0 0 33px;
 
-    @media all and (min-width: 900px) {
+    @media (min-width: 900px) {
       margin: 75px 0 0 82px;
     }
 
-    @media all and (min-width: 1728px) {
+    @media (min-width: 1728px) {
       display: none;
     }
   }
@@ -34,7 +34,7 @@
   display: none;
   padding-right: 81px;
 
-  @media all and (min-width: 1728px) {
+  @media (min-width: 1728px) {
     display: flex;
     position: fixed;
     margin-left: -655px;
@@ -60,7 +60,7 @@
   align-items: center;
   text-align: center;
 
-  @media all and (min-width: 900px) {
+  @media (min-width: 900px) {
     padding-top: 39px;
   }
 
@@ -71,7 +71,7 @@
   }
 }
 
-@media all and (min-width: 900px) {
+@media (min-width: 900px) {
   .ipad-spaces {
     text-align: left;
     margin-left: -147px;
@@ -79,7 +79,7 @@
   }
 }
 
-@media all and (min-width: 1728px) {
+@media (min-width: 1728px) {
   .ipad-spaces {
     margin-left: -673px;
   }
@@ -92,11 +92,11 @@
   padding-top: 160px;
   padding-bottom: 24px;
 
-  @media all and (min-width: 900px) {
+  @media (min-width: 900px) {
     font-size: 36px;
   }
 
-  @media all and (min-width: 1728px) {
+  @media (min-width: 1728px) {
     padding-top: 400px;
   }
 

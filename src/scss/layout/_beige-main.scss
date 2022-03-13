@@ -3,18 +3,32 @@
 .beige-main {
   background-color: $beige-background;
   text-align: center;
-  display: grid;
-  grid-gap: 60px;
   padding-bottom: 40px;
+
+  @media (min-width: 900px) {
+    padding-bottom: 73px;
+  }
+}
+
+.grid-articles {
+  @media (min-width: 900px) {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 90px;
+  }
 }
 
 // Title
 
 .open-title {
-  text-align: center;
   font-size: 24px;
   color: $turquoise;
   padding-top: 41px;
+
+  @media (min-width: 900px) {
+    padding-top: 63px;
+  }
 
   &__size-title {
     text-transform: uppercase;
@@ -23,9 +37,23 @@
 
 // Articles
 
+.icons {
+  width: 90px;
+  height: 99px;
+
+  @media (min-width: 900px) {
+    height: 106px;
+  }
+}
+
 .beige-article {
   padding: 0 100px;
   color: $turquoise;
+
+  @media (min-width: 900px) {
+    padding: 52px 0 0;
+    width: 208px;
+  }
 
   &__beige-title {
     padding: 42px 0 12px;
