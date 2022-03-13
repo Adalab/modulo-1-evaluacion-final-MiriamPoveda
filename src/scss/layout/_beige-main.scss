@@ -8,6 +8,10 @@
   @media (min-width: 900px) {
     padding-bottom: 73px;
   }
+
+  @media (min-width: 1728px) {
+    padding-bottom: 86px;
+  }
 }
 
 .grid-articles {
@@ -21,13 +25,20 @@
 
 // Title
 
+.grid-title {
+  display: grid;
+  justify-items: center;
+}
+
 .open-title {
   font-size: 24px;
   color: $turquoise;
   padding-top: 41px;
+  width: 322px;
 
   @media (min-width: 900px) {
     padding-top: 63px;
+    width: 799px;
   }
 
   @media (min-width: 1728px) {
@@ -41,22 +52,11 @@
   }
 }
 
-.grid-title {
-  @media (min-width: 1728px) {
-    display: grid;
-    justify-items: center;
-  }
-}
-
-// Articles
+// Icons + articles
 
 .icons {
   width: 90px;
-  height: 99px;
-
-  @media (min-width: 900px) {
-    height: 106px;
-  }
+  margin-top: 35px;
 
   @media (min-width: 1728px) {
     width: 120px;
@@ -69,7 +69,7 @@
   color: $turquoise;
 
   @media (min-width: 900px) {
-    padding: 52px 0 0;
+    padding: 20px 0 0;
     width: 208px;
   }
 

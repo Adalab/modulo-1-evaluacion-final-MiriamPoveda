@@ -6,6 +6,11 @@
   text-align: center;
 }
 
+.car {
+  width: 120px;
+  height: 120px;
+}
+
 // pumpkin article
 
 .pumpkin-article {
@@ -14,8 +19,20 @@
   color: $white-text;
   line-height: 35px;
 
+  @media (min-width: 900px) {
+    line-height: 40px;
+  }
+
   &__pumpkin-title {
     font-size: 24px;
+
+    @media (min-width: 900px) {
+      font-size: 30px;
+    }
+
+    @media (min-width: 1728px) {
+      font-size: 36px;
+    }
   }
 
   &__pumpkin-title--pumpkin-text {
@@ -28,23 +45,69 @@
     color: $white-text;
     display: grid;
     padding-top: 20px;
+
+    @media (min-width: 900px) {
+      padding-top: 10px;
+    }
   }
 }
 
 // Mixed article
 
+.grid-mixed {
+  width: 360px;
+
+  @media (min-width: 900px) {
+    width: 410px;
+  }
+
+  @media (min-width: 1728px) {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15%;
+  }
+}
+
 .mixed-article {
   background-color: $beige-background;
   color: $turquoise;
-  padding: 87px 0 92px;
+  padding-top: 125px;
+  display: grid;
+  justify-items: center;
+
+  @media (min-width: 1728px) {
+    display: flex;
+    padding: 0;
+  }
 
   &__mixed-title {
     font-size: 24px;
     line-height: 40px;
+
+    @media (min-width: 900px) {
+      font-size: 30px;
+    }
+
+    @media (min-width: 1728px) {
+      font-size: 36px;
+      width: 430px;
+      text-align: left;
+      line-height: 50px;
+    }
   }
 
   &__mixed-title--mixed-text {
     font-size: 14px;
+
+    @media (min-width: 1728px) {
+      width: 281px;
+      text-align: left;
+      font-size: 16px;
+      padding-top: 15px;
+    }
   }
 }
 
@@ -62,5 +125,15 @@
     color: $white-text;
     text-decoration: none;
     text-transform: capitalize;
+  }
+}
+
+.bathroom {
+  width: 100vw;
+  padding-top: 125px;
+
+  @media (min-width: 1728px) {
+    width: 55%;
+    padding: 0;
   }
 }
