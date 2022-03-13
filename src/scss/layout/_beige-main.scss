@@ -30,8 +30,21 @@
     padding-top: 63px;
   }
 
+  @media (min-width: 1728px) {
+    font-size: 36px;
+    padding-top: 42px;
+    width: 799px;
+  }
+
   &__size-title {
     text-transform: uppercase;
+  }
+}
+
+.grid-title {
+  @media (min-width: 1728px) {
+    display: grid;
+    justify-items: center;
   }
 }
 
@@ -43,6 +56,11 @@
 
   @media (min-width: 900px) {
     height: 106px;
+  }
+
+  @media (min-width: 1728px) {
+    width: 120px;
+    height: 120px;
   }
 }
 
@@ -58,6 +76,11 @@
   &__beige-title {
     padding: 42px 0 12px;
     font-size: 20px;
+
+    @media (min-width: 1728px) {
+      font-size: 24px;
+      padding-bottom: 0;
+    }
   }
 
   &__beige-title--beige-text {
