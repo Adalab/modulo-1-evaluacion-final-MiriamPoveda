@@ -15,9 +15,10 @@
 }
 
 .grid-articles {
+  display: grid;
+  justify-items: center;
+
   @media (min-width: 900px) {
-    display: grid;
-    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 90px;
   }
@@ -65,12 +66,11 @@
 }
 
 .beige-article {
-  padding: 0 100px;
   color: $turquoise;
+  width: 208px;
 
   @media (min-width: 900px) {
     padding: 20px 0 0;
-    width: 208px;
   }
 
   &__beige-title {
