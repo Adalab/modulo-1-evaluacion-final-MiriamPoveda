@@ -62,12 +62,15 @@
   list-style: none;
   display: flex;
   padding-top: 15px;
-  font-size: 20px;
 
   &__social-media {
-    padding-right: 15px;
+    padding-right: 10px;
     color: $white-text;
   }
+}
+
+.social-icons {
+  width: 25px;
 }
 
 // Arrow

@@ -54,6 +54,14 @@
 
 // Mixed article
 
+@media (min-width: 1728px) {
+  .mixed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 .grid-mixed {
   width: 360px;
 
@@ -122,8 +130,6 @@
   &__mixed-link {
     font-size: 16px;
     font-weight: 600;
-    color: $white-text;
-    text-decoration: none;
     text-transform: capitalize;
   }
 }
