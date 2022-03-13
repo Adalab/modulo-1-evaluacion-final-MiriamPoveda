@@ -30,20 +30,15 @@
 
 // Menú de inicio
 
-.spaces-menu {
-  @media all and (min-width: 1728px) {
-    display: flex;
-    align-items: center;
-    margin-left: -400px;
-  }
-}
-
 .menu {
   display: none;
   padding-right: 81px;
 
   @media all and (min-width: 1728px) {
     display: flex;
+    position: fixed;
+    margin-left: -655px;
+    padding-top: 38px;
   }
 
   &__list {
