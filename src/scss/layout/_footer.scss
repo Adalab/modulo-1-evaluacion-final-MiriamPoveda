@@ -28,7 +28,7 @@
   }
 }
 
-@media (min-width: 1728px) {
+@media (min-width: 1200px) {
   .footer-flex {
     gap: 200px;
   }
@@ -39,7 +39,7 @@
 .footer-title {
   font-size: 1.25rem;
 
-  @media (min-width: 1728px) {
+  @media (min-width: 1200px) {
     font-size: 1.5rem;
   }
 }
@@ -49,8 +49,12 @@
   padding: 12px 0 20px;
   font-size: 0.875rem;
 
-  @media (min-width: 1728px) {
+  @media (min-width: 1200px) {
     font-size: 1rem;
+  }
+
+  @media (min-width: 1728px) {
+    font-size: 1.25rem;
   }
 
   &__li-size {
@@ -71,6 +75,10 @@
 
 .social-icons {
   width: 25px;
+
+  @media (min-width: 1728px) {
+    width: 35px;
+  }
 }
 
 // Arrow
@@ -84,6 +92,10 @@
 
 .arrow {
   width: 24px;
+
+  @media (min-width: 1728px) {
+    width: 35px;
+  }
 }
 
 @media (min-width: 900px) {
