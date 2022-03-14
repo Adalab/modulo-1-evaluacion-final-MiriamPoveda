@@ -47,7 +47,7 @@
     list-style: none;
     text-decoration: none;
     color: $turquoise;
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
@@ -86,33 +86,26 @@
 }
 
 .title {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: $turquoise;
   font-weight: 600;
   padding-top: 160px;
   padding-bottom: 24px;
 
   @media (min-width: 900px) {
-    font-size: 36px;
+    font-size: 2.25rem;
   }
 
   @media (min-width: 1728px) {
-    padding-top: 400px;
+    padding-top: 300px;
   }
 
   &__button {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: $turquoise;
     text-transform: capitalize;
     padding: 12px 24px;
     border: none;
   }
-}
-
-// Link
-
-.links {
-  text-decoration: none;
-  color: $white-text;
 }
