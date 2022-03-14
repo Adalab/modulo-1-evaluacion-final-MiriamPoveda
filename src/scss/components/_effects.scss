@@ -1,0 +1,34 @@
+// Buttons
+
+button:hover {
+  background-color: #ff975a;
+  opacity: 80%;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.5);
+}
+
+// Principal logo
+
+.os-logo {
+  animation-duration: 1s;
+  animation-name: intro;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes intro {
+  from {
+    transform: scale(5) rotate(-250deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+// Arrow logo
+
+.arrow:hover {
+  transform: scale(2.5);
+}
