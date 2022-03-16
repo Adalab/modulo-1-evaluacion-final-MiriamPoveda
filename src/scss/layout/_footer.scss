@@ -1,12 +1,12 @@
 // Footer + section
 
 .footer {
-  background-color: $turquoise;
-  color: $blue-grey-text;
+  background-color: $pumpkin-background;
+  color: black;
 
   &__footer-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     padding-top: 56px;
 
@@ -16,7 +16,16 @@
   }
 }
 
+.footer-flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 @media (min-width: 900px) {
+  .footer-title {
+    color: $pumpkin-background;
+  }
+
   .footer-flex {
     display: flex;
     gap: 120px;
@@ -47,7 +56,7 @@
 
 .footer-list {
   list-style: none;
-  padding: 12px 0 20px;
+  padding: 45px 0;
   font-size: 0.875rem;
 
   @media (min-width: 1200px) {
@@ -70,7 +79,7 @@
 
   &__social-media {
     padding-right: 10px;
-    color: $white-text;
+    color: black;
   }
 }
 
