@@ -1,6 +1,6 @@
-#Módulo 1
+# Módulo 1
 
-###Evaluación final 📋
+## Evaluación final 📋
 
 Maquetación, en versión móvil, tablet y desktop, de la Home de una web llamada Open Spaces.
 
