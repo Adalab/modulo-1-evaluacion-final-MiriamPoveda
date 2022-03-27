@@ -14,7 +14,7 @@
   }
 }
 
-.grid-articles {
+.grid-main {
   display: grid;
   justify-items: center;
 
@@ -26,11 +26,6 @@
 
 // Title
 
-.grid-title {
-  display: grid;
-  justify-items: center;
-}
-
 .open-title {
   font-size: 1.5rem;
   color: $turquoise;
@@ -40,6 +35,7 @@
   @media (min-width: 900px) {
     padding-top: 63px;
     width: 799px;
+    grid-column: 1/4;
   }
 
   @media (min-width: 1200px) {
